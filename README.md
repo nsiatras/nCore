@@ -1,7 +1,7 @@
 nCore - Simple, Secure and Fast MySQL connector for PHP
 =======
 
-I built nCore when I first started working with PHP in 2012. I was very familiar with programming in C# and since my first jobs had a lot to do with reading and writing data to Databases, I decided to build nCore to transfer the way I used databases in C# to PHP.
+I built nCore when I first started working with PHP in 2012. I was very familiar with programming in C# and since my first jobs had a lot to do with reading and writing data to Databases, I decided to build nCore to transfer the way I used databases with C#, to PHP.
 
 ## How to Use
 To better undersand how to use nCore read the code inside the <b>[nCore_Test.php](https://github.com/nsiatras/nCore/blob/main/nCore_Test.php)</b> file
