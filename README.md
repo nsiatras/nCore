@@ -24,7 +24,7 @@ echo 'New employee inserted. Record ID is ' . $recordID . '<br>';
 ```
 $sql = "SELECT `ID`,`FirstName`,`LastName`,`Salary` FROM `Employees` WHERE `Saralary`> ?";
 $command = new MySQLCommand($connection, $sql);
-$command->Parameters->setInteger(1, 1000);
+$command->Parameters->setDouble(1, 1000);
 $reader = $command->ExecuteReader();
 while ($reader->Read())
 {
