@@ -8,7 +8,7 @@ To better undersand how to use nCore read the code inside the <b>[nCore_Test.php
 
 
  #### How to insert data
-```
+```php
 $sql = 'INSERT INTO `Employees` (`FirstName`,`LastName`,`Email`,`PhoneNumber`,`Salary`) VALUES (?,?,?,?,?)';
 $command = new MySQLCommand($connection, $sql);
 $command->Parameters->setString(1, "Nikos");
@@ -21,7 +21,7 @@ $recordID = $command->$command->getLastInsertID(); // This returns the Auto Incr
 echo 'New employee inserted. Record ID is ' . $recordID . '<br>';
 ```
 #### How to read data
-```
+```php
 $sql = "SELECT `ID`,`FirstName`,`LastName`,`Salary` FROM `Employees` WHERE `Saralary`> ?";
 $command = new MySQLCommand($connection, $sql);
 $command->Parameters->setDouble(1, 1000);
