@@ -1,6 +1,9 @@
 nCore - Simple, Secure and Fast MySQL connector for PHP
 =======
 
+**This repository is no longer maintained.** nCore framework is now part of PHP-Berry framework. Find PHP-Berry at https://github.com/SourceRabbit/php-berry 
+
+---
 I built nCore when I first started working with PHP in 2012. Back then I was working mostly with C# and since my first jobs had a lot to do with reading and writing data to Databases, I decided to build nCore to transfer the way I used databases with C#, to PHP.
 
 ## How to Use
